@@ -1,0 +1,25 @@
+cd task1
+cd src
+
+
+
+
+
+
+
+chmod u+x tst.py
+
+
+
+
+
+cd ~/catkin_ws
+
+
+source devel/setup.bash
+
+
+roslaunch task1 run.launch
+
+
+rosrun turtlesim turtlesim_node

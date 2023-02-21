@@ -1,0 +1,4 @@
+<launch>
+    <node name="only" pkg="task1" type="n.py" output="screen"/>
+    <rosparam command="load" file="$(find task1)/config/my_params.yaml"/>
+</launch>
